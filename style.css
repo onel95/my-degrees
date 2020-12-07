@@ -1,0 +1,24 @@
+body {
+  background-color: rgb(32, 31, 31);
+  text-align: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: peru;
+  font-weight: 500;
+  font-style: italic;
+}
+
+button {
+  background-color: peru;
+  margin-top: 50px;
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 12px;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background-color: white;
+}
