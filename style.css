@@ -13,6 +13,7 @@ h1 {
 button {
   background-color: peru;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px;
   font-size: 20px;
   border-radius: 12px;
@@ -20,5 +21,29 @@ button {
 }
 
 button:hover {
+  background-color: white;
+}
+
+table {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  display: table;
+  height: 50px;
+}
+
+th {
+  background-color: darkgrey;
+  color: peru;
+}
+
+th,
+td {
+  padding: 15px;
+  border-bottom: 1px solid;
+  border-color: antiquewhite;
+}
+
+tr:hover {
   background-color: white;
 }
